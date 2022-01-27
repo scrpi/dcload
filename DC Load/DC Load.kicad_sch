@@ -1337,7 +1337,7 @@
   (symbol (lib_id "MCU_ST_STM32F1:STM32F103C8Tx") (at 114.3 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe9fcdce-5b99-4eca-bfaa-591ba3bc2fef)
-    (property "Reference" "U?" (id 0) (at 118.8594 107.95 0)
+    (property "Reference" "U6" (id 0) (at 118.8594 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F103C8Tx" (id 1) (at 118.8594 110.49 0)
@@ -1515,8 +1515,11 @@
     (path "/dbf2ec6d-5b7c-4864-8414-3433d3b742de/3fec2d76-ae4a-4c52-a705-9aa4fc1d6e0a"
       (reference "#PWR010") (unit 1) (value "GND") (footprint "")
     )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/b8e558a9-5f4a-45a5-aa1c-03f01c511d9e"
-      (reference "#PWR011") (unit 1) (value "+2.048V") (footprint "")
+    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/b7732f89-4925-4bee-8cb3-3d1d66323d48"
+      (reference "#PWR011") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/bc2ccd60-cc8e-4831-b51c-e30aa927e79a"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/f575cc6b-b6f6-44d5-a9fa-e8868654eb82"
       (reference "#PWR013") (unit 1) (value "+5V") (footprint "")
@@ -1563,17 +1566,11 @@
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/8d5bfb8f-7a41-43f0-a1d9-304ba5c153ab"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/2d868b43-5c88-46e1-b4bf-ebd6a113b601"
-      (reference "#PWR028") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/fe5d494f-1cd3-468d-830f-faf9fa453e77"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/a5c13df8-376f-42ac-bdf1-e84e19d548ab"
+      (reference "#PWR028") (unit 1) (value "+2.048V") (footprint "")
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/aad6e91b-812e-485c-a780-1e6007756cf8"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/b7732f89-4925-4bee-8cb3-3d1d66323d48"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/16aec46b-6a38-4237-b970-7429d50e0368"
       (reference "A1") (unit 1) (value "Arduino_Nano_v3.x") (footprint "Module:Arduino_Nano")
@@ -1610,9 +1607,6 @@
     )
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/987f5937-f646-4911-a093-8a12b781d884"
       (reference "C11") (unit 1) (value "10uF") (footprint "")
-    )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/bf65b4f8-d772-4e15-8de7-3a15074c730f"
-      (reference "C12") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/8ae9dc19-cf40-42a2-a0fc-a6f648feb868"
       (reference "C13") (unit 1) (value "0.1uF") (footprint "")
@@ -1676,9 +1670,6 @@
     )
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/047b4234-1e92-4bf7-89fa-85ef6c9591ea"
       (reference "IC2") (unit 1) (value "LTC1046CS8#PBF") (footprint "SOIC127P599X175-8N")
-    )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/3c644894-f2cb-401d-a6fe-03d7eea20c69"
-      (reference "IC3") (unit 1) (value "DAC80501MDGST") (footprint "SOP50P490X110-10N")
     )
     (path "/51e2b8b9-06ec-4d7b-b206-36f4a8777eae"
       (reference "J1") (unit 1) (value "VSENSE") (footprint "")
@@ -1788,9 +1779,6 @@
     (path "/dbf2ec6d-5b7c-4864-8414-3433d3b742de/0be408a4-434f-4794-b4e3-549a2a749b15"
       (reference "R24") (unit 1) (value "0R1 1% 2W") (footprint "")
     )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/0001a2e9-b4a8-45b2-9215-dd269d8df025"
-      (reference "R25") (unit 1) (value "10K") (footprint "")
-    )
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/b08878ec-f22d-416b-8d92-62f5f678b00d"
       (reference "R26") (unit 1) (value "470K") (footprint "")
     )
@@ -1820,9 +1808,6 @@
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/3ac5c11d-db7b-430b-9d4c-b45d854da45f"
       (reference "R44") (unit 1) (value "10K") (footprint "")
-    )
-    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/4822bfb9-9c44-4689-bc37-7cc88297a6ac"
-      (reference "R45") (unit 1) (value "10K") (footprint "")
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/a2974e2e-5439-4050-a37e-28b2d5a035b2"
       (reference "R46") (unit 1) (value "100") (footprint "")
@@ -1902,6 +1887,9 @@
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/fd475f7f-2938-48c7-8af6-1e290f3ac949"
       (reference "U5") (unit 1) (value "REF5020AID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
+    (path "/fe9fcdce-5b99-4eca-bfaa-591ba3bc2fef"
+      (reference "U6") (unit 1) (value "STM32F103C8Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/e805cec0-25c2-4590-9bc5-079241905cd3"
       (reference "U7") (unit 1) (value "MCP3426") (footprint "")
     )
@@ -1920,8 +1908,8 @@
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/bac437f3-7f86-44d3-a7c5-cc44221ba535"
       (reference "U10") (unit 1) (value "MC7805BD2TR4G") (footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")
     )
-    (path "/fe9fcdce-5b99-4eca-bfaa-591ba3bc2fef"
-      (reference "U?") (unit 1) (value "STM32F103C8Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/96a0782b-64d0-499a-a826-47e1d2678216"
+      (reference "U11") (unit 1) (value "MAX5217") (footprint "Package_SO:MSOP-8_3x3mm_P0.65mm")
     )
   )
 )
