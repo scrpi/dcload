@@ -328,6 +328,10 @@
     [
       "dfd5aec5-c760-49fb-a2c5-6076cb755a00",
       "ADC_DAC"
+    ],
+    [
+      "ee92d22e-f0a9-4e83-8faa-8b8475bbee5f",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
