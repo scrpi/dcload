@@ -1272,6 +1272,12 @@
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/aad6e91b-812e-485c-a780-1e6007756cf8"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/65363f36-b5a5-44eb-bc02-cb7624a72004"
+      (reference "#PWR?") (unit 1) (value "+2.048V") (footprint "")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/a9c788c4-267a-4171-aca5-183269e867af"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/16aec46b-6a38-4237-b970-7429d50e0368"
       (reference "A1") (unit 1) (value "Arduino_Nano_v3.x") (footprint "Module:Arduino_Nano")
     )
@@ -1355,6 +1361,12 @@
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/ea48e10b-a1d1-4dd3-b3d6-e7ad7ee0d13a"
       (reference "C30") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/0cc9fb54-7b83-4a49-97f7-145ec6be54cc"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/987f5937-f646-4911-a093-8a12b781d884"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
     )
     (path "/90b2bc12-48f5-42fa-aece-7df32727bab7"
       (reference "D1") (unit 1) (value "V60DM100C") (footprint "")
@@ -1518,8 +1530,17 @@
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/918e2d0d-e63f-4667-9008-5a6a2499a50f"
       (reference "R49") (unit 1) (value "690 0.1%") (footprint "")
     )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/869e512e-718c-4254-94c2-60b454b15460"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/b08878ec-f22d-416b-8d92-62f5f678b00d"
+      (reference "R?") (unit 1) (value "470K") (footprint "")
+    )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/31a9e5e4-4dd3-4121-982d-c5222195d9f0"
       (reference "RV1") (unit 1) (value "20K") (footprint "")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/8ba51df0-6dd2-4c1f-865d-ceb9af3dc310"
+      (reference "RV?") (unit 1) (value "10K") (footprint "")
     )
     (path "/dfd5aec5-c760-49fb-a2c5-6076cb755a00/cd5710ff-c0a5-48ab-9abd-6cc33732d7b5"
       (reference "TP1") (unit 1) (value "VS-") (footprint "")
@@ -1541,6 +1562,9 @@
     )
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/9b515711-d9f5-47ef-9698-14d9d7c11fce"
       (reference "TP7") (unit 1) (value "-5V") (footprint "")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/29a1bd7c-9bde-4931-9e02-038b0a792c71"
+      (reference "TP?") (unit 1) (value "+2.048V") (footprint "")
     )
     (path "/dbf2ec6d-5b7c-4864-8414-3433d3b742de/12ec4236-7113-4cc5-97d6-caf61f237980"
       (reference "U1") (unit 1) (value "OPA2182") (footprint "")
@@ -1595,6 +1619,9 @@
     )
     (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/bac437f3-7f86-44d3-a7c5-cc44221ba535"
       (reference "U10") (unit 1) (value "MC7805BD2TR4G") (footprint "Package_TO_SOT_SMD:TO-263-3_TabPin2")
+    )
+    (path "/ee92d22e-f0a9-4e83-8faa-8b8475bbee5f/fd475f7f-2938-48c7-8af6-1e290f3ac949"
+      (reference "U?") (unit 1) (value "REF5020AID") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
   )
 )
