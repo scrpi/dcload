@@ -324,6 +324,10 @@
     [
       "dbf2ec6d-5b7c-4864-8414-3433d3b742de",
       "MOSFETS"
+    ],
+    [
+      "dfd5aec5-c760-49fb-a2c5-6076cb755a00",
+      "ADC_DAC"
     ]
   ],
   "text_variables": {}
